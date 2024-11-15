@@ -10,7 +10,4 @@ function choiceHobbies(hobbyOne, hobbyTwo, hobbyThree) {
   return pastTime;
 }
 
-const resultHobby = choiceHobbies("swimming", "volley", "golf");
-console.log(resultHobby);
-
-module.exports = studentHobby;
+module.exports = choiceHobbies;

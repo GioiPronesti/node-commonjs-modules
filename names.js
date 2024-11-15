@@ -18,7 +18,4 @@ function nameAndSurname(firstname, lastname) {
   return student;
 }
 
-const res = nameAndSurname("mario", "rossi");
-console.log(res);
-
-module.exports = studentSignature;
+module.exports = nameAndSurname;
