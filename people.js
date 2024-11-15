@@ -5,3 +5,14 @@ Crea una funzione che non ha parametri. La funzione dovrebbe restituire un ogget
 
 const signature = require("./names.js"); // importo la funzione nameandsurname da names.js
 const hobby = require("./hobbies.js"); // importo la funzione choiceHobbies da hobbies.js
+
+function studentHobbies() {
+  const myHobbies = {
+    sign: signature("Mario", "Rossi"),
+    freetime: hobby("surf", "volley", "jogging"),
+  };
+
+  return myHobbies;
+}
+
+console.log(studentHobbies());
