@@ -20,3 +20,5 @@ function nameAndSurname(firstname, lastname) {
 
 const res = nameAndSurname("mario", "rossi");
 console.log(res);
+
+module.exports = studentSignature;
